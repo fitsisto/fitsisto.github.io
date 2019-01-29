@@ -1,0 +1,32 @@
+﻿.phrase{
+	position:relative;
+	bottom:146px;
+	margin:0px;
+}
+.phrase h3{
+	color:white;
+	line-height:25px;
+    background-color: #2D2336;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #2D2336 -webkit-gradient(linear, left top, left bottom, from(#08100C), to(#2D2336)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #2D2336 -moz-linear-gradient(top, #08100C, #2D2336) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#08100C, endColorstr=#2D2336) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#08100C, endColorstr=#08100C)" no-repeat;
+	text-align:left;
+}
+.phrase p{
+	color:black;
+	font-family:Calibri;
+	font-size:1.1em;
+	position:relative;
+	bottom:12px;
+}
+.phrase p a{
+	text-decoration:none;
+}
+.phrase p a:hover{
+	color:white;
+}
